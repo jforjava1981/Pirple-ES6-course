@@ -27,7 +27,7 @@ exports.printSongInfo = function () {
     var language = "English"
     var isTranlationAvailableInOtherLanguages = false
     var copiesSold = "1000000"
-    var album = "NA"
+    var album = null;
     var isSingle = true
 
     console.log(name);

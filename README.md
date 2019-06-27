@@ -1,3 +1,3 @@
-# js-uhqfhh
+# pirple-es6-course
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/js-uhqfhh)
+[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/pirple-es6-course)

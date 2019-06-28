@@ -1,5 +1,6 @@
 exports.printSongInfo = function () {
     var name = "You fill up my senses"
+    var shortDescription
     var author = "John Denver"
     var dateWritten = "1972-5-15"
     var composers = ["John Denver"]
@@ -31,6 +32,7 @@ exports.printSongInfo = function () {
     var isSingle = true
 
     console.log(name);
+    console.log(shortDescription);
     console.log(author);
     console.log(dateWritten);
     console.log(composers);

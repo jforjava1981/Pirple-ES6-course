@@ -43,12 +43,12 @@ export function varExample() {
 
 // let example - defined in block
 export function letExample() {
-   console.log(name) // not visible here - should give reference error
+   // console.log(myName) // not visible here - should give reference error
    if(true) {
-     let name = "merry"
-     console.log(name);
+     let myName = "merry"
+     console.log(myName);
    }
-   console.log(name) // - should give reference error
+   // console.log(myName) // - should give reference error
 }
 
 //const example

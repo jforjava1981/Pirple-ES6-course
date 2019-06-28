@@ -1,5 +1,6 @@
 import { printSongInfo } from './song.js';
 import { letExample, varExample, constExample } from './variables.js';
+import { isSocretesMortalMan } from './socretes.js';
 
 //Exercise # 1 - Data Types
 printSongInfo();
@@ -9,4 +10,5 @@ varExample();
 letExample();
 constExample();
 
-//Exercise # 3 - 
+//Exercise # 3 - If Statements and Operators
+isSocretesMortalMan();

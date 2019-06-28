@@ -1,3 +1,4 @@
+
 export function isSocretesMortalMan () {
 
   let men = [{
@@ -43,4 +44,10 @@ export function isSocretesMortalMan () {
       } 
   }
 
+}
+
+export function isCakeVanillaOrChocolate(cake) { 
+    if(cake.flavor !== 'chocolate') {
+      console.log("this cake is Vanilla cake")
+    }
 }

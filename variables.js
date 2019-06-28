@@ -1,16 +1,19 @@
 /**
- * * hositing means ability to refer to a variable / function name before it is declared.
+ *  hoisting means mechanism where javascript puts all variable/function declarations at the top of enclosing scope.
+ * it gives us ability to refer to a variable / function name before it is declared.
  * javascript hoists all variable/function declarations. Only declarations are hoiseted not initializations, meaning that even if we initialize a variable after its reference, all the references before the intialization will have a value undefined as demonstarated in below example.
  * 
- * * function(){
- *    console.log(name);
+ *  function(){
+ *   console.log(name); // name is visible here because of hoisting with value       *                        //undefined because only declaration is hoisted not *   * *                        // initializations
+ *    name = "abc";
+ *    console.log(name) // name is available because of hoisting with value  abc
  *    if(true) {
  *        var name = "test";
  *    }
- *    console.log(name)
+ *    console.log(name) //test
  *    
- * }
- * in above code if we use let compiler will complain as name is not present in the function's scope but is defined in "if statement" scope. However as we are using var we will get two lines of output first console.log will print undefined and second will print test. this because var declarations are hoisted by compiler and they are considered to be decalred at the top of the function even though they are declared somewhere else.
+ *  }
+ * in above code if we use let compiler will complain as name is not present in the function's scope but is defined in "if statement" scope. However as we are using var we will get three lines of output first console.log will print undefined and second will print abc and third test. this because var declarations are hoisted by compiler and they are considered to be decalred at the top of the function even though they are declared somewhere else.
 
  */
 

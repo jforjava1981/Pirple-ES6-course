@@ -39,4 +39,8 @@ console.log(timeAdder(false,false,5,"minutes") );
 
 console.log(timeAdder(false,false,5,"minutes") );
 
-console.log(timeAdder(2, "days", 2, "minutes"));
+console.log(timeAdder(90, "seconds", 30, "seconds"));
+
+console.log(timeAdder(43200, "seconds", 43200, "seconds"));
+
+console.log(timeAdder(20, "hours", 4, "hours"));

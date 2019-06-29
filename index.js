@@ -2,6 +2,7 @@ import { printSongInfo } from './song.js';
 import { letExample, varExample, constExample } from './variables.js';
 import { isSocretesMortalMan, isCakeVanillaOrChocolate } from './socretes.js';
 import { isMortal } from './isMortal.js';
+import { timeAdder } from './timeAdder.js';
 
 //Exercise # 1 - Data Types
 printSongInfo();
@@ -29,3 +30,13 @@ let checkIfMortal = function() {
  checkIfMortal(name);
  name = 'Socretes';
  checkIfMortal(name);
+
+//Exercise # 5 - Switch
+
+console.log(timeAdder(5,"hour",5,"minutes") );
+
+console.log(timeAdder(false,false,5,"minutes") );
+
+console.log(timeAdder(false,false,5,"minutes") );
+
+console.log(timeAdder(2, "days", 2, "minutes"));

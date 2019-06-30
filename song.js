@@ -9,10 +9,10 @@ exports.printSongInfo = function () {
     var author = "John Denver"
     var dateWritten = "1972-5-15"
     var composers = ["John Denver"]
-    var duration  = "10800"
+    var duration  = "10800" // this is in seconds.
     var theme = "romantic"
     var genre = "classic"
-    var singers = { "name": "John", "lastName": "Denver", "name": "Sara", "lastName": "Denver" } 
+    var singers = [ { "name": "John", "lastName": "Denver"}, {"name": "Sara", "lastName": "Denver"} ] 
     var availableOnCD = false
     var availableOnAppleItunes = true
     var formatsAvailable = ["mp3","mp4","itunes"]
@@ -34,7 +34,7 @@ exports.printSongInfo = function () {
     var isTranlationAvailableInOtherLanguages = false
     var copiesSold = "1000000"
     var album = null; 
-    /** to demonstrate null data type. when song is published as single song and it not published as part of any album "album" attribute is null.
+    /** to demonstrate null data type. when song is published as single song and it not published as part of any album, "album" attribute is null.
     */  
     var isSingle = true //if true indiates it is not pbulished as a part of album. 
 

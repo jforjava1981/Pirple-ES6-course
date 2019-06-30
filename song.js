@@ -1,3 +1,8 @@
+
+/**
+ * SONG DESCRIPTION - 
+ * this file describes various attributes of a song
+ */
 exports.printSongInfo = function () {
     var name = "You fill up my senses"
     var shortDescription
@@ -18,18 +23,20 @@ exports.printSongInfo = function () {
         "ownerType" : "personal", 
         "name": "Jenny", 
         "lastName":"Denver"
-      },
+      },//only personal owner has last name.
       {
         "ownerType" : "business", 
         "name": "Denver Studios" 
       }]
     var copyrightValidTill = "2019-12-31"
-    var numberofStanza = 4
+    var numberofStanza = 4 // indicates how long the song text is.  
     var language = "English"
     var isTranlationAvailableInOtherLanguages = false
     var copiesSold = "1000000"
-    var album = null;
-    var isSingle = true
+    var album = null; 
+    /** to demonstrate null data type. when song is published as single song and it not published as part of any album "album" attribute is null.
+    */  
+    var isSingle = true //if true indiates it is not pbulished as a part of album. 
 
     console.log(name);
     console.log(shortDescription);

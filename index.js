@@ -3,9 +3,10 @@ import { letExample, varExample, constExample } from './variables.js';
 import { isSocretesMortalMan, isCakeVanillaOrChocolate } from './socretes.js';
 import { isMortal } from './isMortal.js';
 import { timeAdder } from './timeAdder.js';
+import { fizzBuzz, fizzBuzzPrime } from './fizzbuzz.js';
 
 //Exercise # 1 - Data Types
-printSongInfo();
+//printSongInfo();
 
 // //Exercise # 2 - Variables and Constants
 // varExample();
@@ -44,3 +45,7 @@ printSongInfo();
 // console.log(timeAdder(43200, "seconds", 43200, "seconds"));
 
 // console.log(timeAdder(20, "hours", 4, "hours"));
+
+// Exercise # 6 - Loops
+fizzBuzz();
+fizzBuzzPrime();

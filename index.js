@@ -4,6 +4,7 @@ import { isSocretesMortalMan, isCakeVanillaOrChocolate } from './socretes.js';
 import { isMortal } from './isMortal.js';
 import { timeAdder } from './timeAdder.js';
 import { fizzBuzz, fizzBuzzPrime } from './fizzbuzz.js';
+import { createColorfulDOM } from './colorful.js';
 
 //Exercise # 1 - Data Types
 //printSongInfo();
@@ -47,5 +48,8 @@ import { fizzBuzz, fizzBuzzPrime } from './fizzbuzz.js';
 // console.log(timeAdder(20, "hours", 4, "hours"));
 
 // Exercise # 6 - Loops
-fizzBuzz();
-fizzBuzzPrime();
+//fizzBuzz();
+//fizzBuzzPrime();
+
+// Exercise # 7 - The DOM
+createColorfulDOM();

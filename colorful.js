@@ -1,6 +1,6 @@
 export function createColorfulDOM() {
     let pageTitleAndNameText = 'Colorful HTML CSS and Javascript';
-    let pageDescription = 'This page demonstrates DOM magic with colorful rectangles.  Uses important DOM manipulation techniques to create colorful rectangles and shows color codes for CSS nerds. This requires immense creativity,skill of a Javascript Ninja!!';
+    let pageDescription = 'This page demonstrates DOM magic with colorful rectangles.  Uses important DOM manipulation techniques to create colorful rectangles and shows color codes for CSS nerds. This requires immense creativity,skill of a Javascript Ninja!! Ha Ha Ha ;)';
     let colorCodes = ['#FF5733', '#FFA533', '#FFDA33', '#FFEC33', '#F0FF33', 
                       '#68FF33', '#33FF9F', '#33FFF3', '#33DAFF', '#FF33AC' ];
 

@@ -52,4 +52,7 @@ import { createColorfulDOM } from './colorful.js';
 //fizzBuzzPrime();
 
 // Exercise # 7 - The DOM
-createColorfulDOM();
+//createColorfulDOM();
+
+//Exercise # 8 - Tic-Tac-Toe
+
